@@ -1,5 +1,9 @@
 # hit-counter
-Example Web Hit Counter with Scotty and Monad Transformers
+
+[![Actions Status](https://github.com/kutyel/hit-counter/workflows/Haskell%20CI/badge.svg)](https://github.com/kutyel/hit-counter/actions)
+[![ormolu](https://img.shields.io/badge/styled%20with-ormolu-blueviolet)](https://github.com/tweag/ormolu)
+
+Example Web Hit Counter with Scotty and Monad Transformers!
 
 ## Usage
 
