@@ -1,0 +1,23 @@
+name:                hit-counter
+cabal-version:       >=1.10
+version:             0.1.0.0
+synopsis:            Example Web Hit Counter with Scotty and Monad Transformers
+description:         Example Web Hit Counter with Scotty and Monad Transformers.
+bug-reports:         https://github.com/kutyel/hit-counter/issues
+license:             MIT
+license-file:        LICENSE
+author:              Flavio Corpa
+maintainer:          flavio.corpa@47deg.com
+copyright:           Copyright © 2020 Flavio Corpa
+category:            Web
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+
+executable hit-counter
+  main-is:             Main.hs
+  build-depends:       base >=4.12 && <4.13
+                     , containers
+                     , scotty
+                     , text
+                     , transformers
+  default-language:    Haskell2010
