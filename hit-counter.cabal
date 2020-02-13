@@ -15,7 +15,7 @@ extra-source-files:  CHANGELOG.md
 
 executable hit-counter
   main-is:             Main.hs
-  build-depends:       base >=4.12 && <4.13
+  build-depends:       base >= 4.12 && < 5
                      , containers
                      , scotty
                      , text
